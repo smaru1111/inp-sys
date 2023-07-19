@@ -15,7 +15,7 @@ arduino用のフォルダ<br>
 processing用のフォルダ<br>
 以下の記事を参考にして、**LINEトークルームのトークン発行まで**して、発行されたトークンをメモ帳等に控える。<br>
 [LINE Notifyをnode.jsで利用する](https://dev.classmethod.jp/articles/line-notify/)<br>
-inp-sys直下に`.env`フォルダを作り、先ほど用意したトークン文字列をセットする。<br>
+inp-sys直下に`.env`ファイルを作り、先ほど用意したトークン文字列をセットする。<br>
 ```
 //例
 LINE_NOTIFY_TOKEN=hogehogehogehoge
