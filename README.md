@@ -21,3 +21,7 @@ inp-sys直下に`.env`フォルダを作り、先ほど用意したトークン�
 LINE_NOTIFY_TOKEN=hogehogehogehoge
 ```
 セット出来たら、コンパイルして実行。
+
+## node-versionについて
+processingが使えなかった場合のnode.jsのコード。<br>
+もしprocessing側で何かしらの不具合が起こったときに、arduino側でfirmataを起動して、node-versionのsample.jsを実行する。
