@@ -1,10 +1,11 @@
 'use strcit';
 
+require('dotenv').config();
 const axios = require('axios');
 const qs = require('querystring');
 const BASE_URL = 'https://notify-api.line.me';
 const PATH = '/api/notify';
-const LINE_TOKEN = `BDAoOtJJIjL1C64VCmCVVObg9mg5Oe9yApvxfmxlxWk`; //先ほど発行したトークン
+const LINE_TOKEN = process.env.LINE_NOTIFY_TOKEN; //先ほど発行したトークン
 
 const config = {
   baseURL: BASE_URL,
