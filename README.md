@@ -25,3 +25,7 @@ LINE_NOTIFY_TOKEN=hogehogehogehoge
 ## node-versionについて
 processingが使えなかった場合のnode.jsのコード。<br>
 もしprocessing側で何かしらの不具合が起こったときに、arduino側でfirmataを起動して、node-versionのsample.jsを実行する。
+```
+npm i
+npm start
+```
